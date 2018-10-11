@@ -71,6 +71,11 @@ class ViewController: UITableViewController {
         navigationItem.title = "Contacts"
         navigationController?.navigationBar.prefersLargeTitles = true
 
+        // cell separator Collor
+//        tableView.separatorColor = UIColor.blue
+
+
+
         tableView.register(ContactCell.self, forCellReuseIdentifier: cellId)
         // =================================
     }
@@ -87,7 +92,10 @@ class ViewController: UITableViewController {
         let button = UIButton(type: .system)
         button.setTitle("Close", for: .normal)
         button.setTitleColor(.black, for: .normal)
-        button.backgroundColor = .yellow
+
+        // header section Color
+        button.backgroundColor = .orange
+        
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14)
 
         // add close section Function to "Close" button

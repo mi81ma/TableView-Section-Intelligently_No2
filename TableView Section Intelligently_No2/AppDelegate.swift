@@ -21,6 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         window?.makeKeyAndVisible()
 
+        // set Tint Color
+//        window?.tintColor = UIColor.blue
+        
+
         // // set ViewController
         // window?.rootViewController = ViewController()
 

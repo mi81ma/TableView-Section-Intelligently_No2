@@ -22,7 +22,7 @@ class ContactCell: UITableViewCell {
 //        startButton.setTitle("SOME TITLE", for: .normal)
 
         // set Button Image
-        startButton.setImage(#imageLiteral(resourceName: "angleRight"), for: .normal)
+        startButton.setImage(#imageLiteral(resourceName: "Star!!"), for: .normal)
 
         
         startButton.frame = CGRect(x: 0, y: 0, width: 50, height: 50)

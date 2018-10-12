@@ -17,9 +17,13 @@ class ContactCell: UITableViewCell {
 
         // kind of cheat and  use a hack
         let startButton = UIButton(type: .system)
-        startButton.setTitle("SOME TITLE", for: .normal)
 
-        startButton.setImage(#imageLiteral(resourceName: "Add"), for: .normal)
+        // Title Letter
+//        startButton.setTitle("SOME TITLE", for: .normal)
+
+        // set Button Image
+        startButton.setImage(#imageLiteral(resourceName: "angleRight"), for: .normal)
+
         
         startButton.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
         accessoryView = startButton

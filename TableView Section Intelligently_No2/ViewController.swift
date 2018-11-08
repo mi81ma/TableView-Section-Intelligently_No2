@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UITableViewController {
 
-    // ********varta Set ***************
+    // ******** varta Set ***************
     let cellId = "cellId"
 
 
